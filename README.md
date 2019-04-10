@@ -16,4 +16,4 @@ Easy as that!
 
 # Screenshots
 ---
-![])(https://raw.githubusercontent.com/navisecdelta/X-Prey/master/screenshots/xprey.png)
+![](https://raw.githubusercontent.com/navisecdelta/X-Prey/master/screenshots/xprey.png)
