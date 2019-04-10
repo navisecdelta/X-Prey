@@ -23,12 +23,12 @@ optparse = OptionParser.new do|opts|
     end
 
     options[:emails_file] = false
-    opts.on( '-i', '--emails email-list.txt', 'Domain name used with Email' ) do|emails_file|
+    opts.on( '-e', '--emails email-list.txt', 'Domain name used with Email' ) do|emails_file|
         options[:emails_file] = emails_file
     end
 
     options[:breach_data_file] = false
-    opts.on( '-i', '--breaches breachpairs.txt', 'File containing breach data or known passwords' ) do|filename|
+    opts.on( '-b', '--breaches breachpairs.txt', 'File containing breach data or known passwords' ) do|filename|
         options[:breach_data_file] = filename
     end
 
